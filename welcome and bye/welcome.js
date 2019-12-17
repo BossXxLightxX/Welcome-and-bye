@@ -1,12 +1,4 @@
 
-/*
-*@file owner Thomas Weland
-*@type discord.js
-*@npm (nothing)
-
-
-*/
-
 bot.on('guildMemberAdd', member => {
   let channel = member.guild.channels.find('name', 'channel.name');
   let memberavatar = member.user.avatarURL
